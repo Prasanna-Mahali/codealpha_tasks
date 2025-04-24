@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Book Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📚 My Book Library</h1>
+
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search by title or author" />
+      <select id="categorySelect">
+        <option value="All">All</option>
+        <option value="Dystopian">Dystopian</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="History">History</option>
+      </select>
+    </div>
+
+    <div id="bookList" class="book-list"></div>
+
+    <h2>📖 Borrowing History</h2>
+    <ul id="historyList" class="history-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
